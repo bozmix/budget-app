@@ -1,0 +1,101 @@
+.transactions {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.transactions h4 {
+    font-weight: lighter;
+    padding: 5px 0 20px;
+}
+
+.incomes {
+    display: inline-block;
+    width: 45%;
+    margin-right: 1%;
+    text-align: left;
+    color: rgba(43,80,127,255);
+    border-bottom: 1px solid rgba(162,179,197,255);
+}
+
+.even {
+    background-color: rgba(234,245,243,255);
+    border-top: 1px solid rgba(162,179,197,255);
+}
+
+.odd {
+    border-top: 1px solid rgba(162,179,197,255);
+}
+
+.incomes .description {
+    color: rgba(0,123,60,255);
+    position: relative;
+    top: 15px;
+}
+
+.expenses {
+    display: inline-block;
+    width: 45%;
+    margin-left: 1%;
+    text-align: start;
+    border-bottom: 1px solid rgba(162,179,197,255);
+}
+
+.expenses h4 {
+    color: rgba(179,111,70,255);
+}
+
+.expensesAmount {
+    color: rgba(160,75,24,255);
+    position: absolute;
+    left: 75%;
+    padding-top: 15px;
+}
+
+.expensesPercent {
+    color: white;
+    background-color: rgba(179,111,70,255);
+    width: 50px;
+    position: absolute;
+    left: 83%;
+    margin-top: 15px;
+    font-size: small;
+    padding: 5px;
+}
+
+.expenses .description {
+    color: rgba(0,123,60,255);
+    position: relative;
+    top: 15px;
+}
+
+.exp .close {
+    position: absolute;
+    left: 88.5%;
+    margin-top: 8px;
+}
+
+.income p {
+    margin: 0 0 0 10px;
+    padding-bottom: 20px;
+    height: 50px;
+}
+
+.incomeAmount {
+    position: absolute;
+    left: 30%;
+    padding-top: 15px;
+}
+
+.close {
+    position: absolute;
+    left: 43%;
+    margin-top: 8px;
+}
+
+.expenses p {
+    margin: 0 0 0 10px;
+    padding-bottom: 20px;
+    height: 50px;
+}

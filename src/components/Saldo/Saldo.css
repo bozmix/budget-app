@@ -1,0 +1,52 @@
+.saldo {
+    padding: 10px 0;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+.expense {
+    margin: 10px auto;
+    padding: 10px 0;
+    width: 50%;
+    background-color: rgba(160,75,24,255);
+    text-align: left;
+}
+
+.inc {
+    margin: 10px auto;
+    padding: 10px 0;
+    width: 50%;
+    background-color: rgba(43,80,127,255);
+    text-align: left;
+}
+
+.inc .incomeText {
+    margin-left: 5%;
+}
+
+.inc .incomeSum {
+    position: absolute;
+    left: 50%;
+}
+
+.expense .expensesText {
+    margin-left: 5%;
+}
+
+.expense .expensesSum {
+    position: absolute;
+    left: 50%;
+}
+
+.expense .percents {
+    position: absolute;
+    left: 60%;
+    top: 193px;
+    background-color: rgba(179,111,70,255);
+    font-size: small;
+    padding: 5px;
+}
+
+.total {
+    padding-bottom: 20px;
+}

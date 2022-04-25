@@ -1,0 +1,12 @@
+.form {
+    background-color: rgba(234,245,243,255);
+    border-bottom: 1px solid rgba(162,179,197,255);
+}
+.submitButton {
+    width: 4em;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+

@@ -1,0 +1,11 @@
+.header {
+    background-color: blue;
+    color: white;
+    background-image: url('https://www.imf.org/-/media/Images/IMF/Publications/GFSR/2021/October/gfsr-october-2021-hero.ashx?h=1077&w=2656&la=en');
+    background-size: cover;
+    margin: 10px 0 0 0;
+}
+
+.text {
+    padding: 10px 0;
+}

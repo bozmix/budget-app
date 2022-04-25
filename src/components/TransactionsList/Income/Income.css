@@ -1,0 +1,9 @@
+
+
+.cross {
+    visibility: visible;
+}
+
+.noCross {
+    visibility: hidden;
+}
